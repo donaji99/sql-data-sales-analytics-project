@@ -6,6 +6,9 @@ This project explores and analyzes key customer and product behaviors using SQL 
 ---
 
 ## 🔍 Roadmap
+(images/Project Roadmap.png)
+
+
 
 ### 🧭 Exploratory Data Analysis (EDA)
 1. **Database Exploration** – Overview of tables and structure.
