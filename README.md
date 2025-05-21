@@ -6,7 +6,8 @@ This project explores and analyzes key customer and product behaviors using SQL 
 ---
 
 ## 🔍 Roadmap
-(images/Project Roadmap.png)
+
+![alt text](<images/Project Roadmap.png>)
 
 
 
