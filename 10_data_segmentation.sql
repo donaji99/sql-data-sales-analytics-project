@@ -1,11 +1,15 @@
 -- ============================================================================
--- Data Segmentation Analysis - MySQL Version
--- Purpose:
---     - Group products into cost ranges.
---     - Segment customers based on lifespan and spending.
+-- Análisis de Segmentación de Datos - Versión MySQL
+-- Objetivos:
+--     1. Agrupar productos por rangos de costo.
+--     2. Segmentar clientes según su historial de compra y gasto total.
 -- ============================================================================
 
--- Segmentar productos por rangos de costo
+
+-- ============================================================================
+-- 1. Segmentación de productos por rangos de costo
+-- ============================================================================
+
 WITH product_segments AS (
     SELECT
         product_key,
@@ -14,11 +18,12 @@ WITH product_segments AS (
         CASE 
             WHEN cost < 100 THEN 'Below 100'
             WHEN cost BETWEEN 100 AND 500 THEN '100-500'
-            WHEN cost BETWEEN 501 AND 1000 THEN '500-1000'
+            WHEN cost BETWEEN 501 AND 1000 THEN '501-1000'
             ELSE 'Above 1000'
         END AS cost_range
     FROM gold_dim_products
 )
+
 SELECT 
     cost_range,
     COUNT(product_key) AS total_products
@@ -27,7 +32,10 @@ GROUP BY cost_range
 ORDER BY total_products DESC;
 
 
--- Segmentar clientes según historial y gasto
+-- ============================================================================
+-- 2. Segmentación de clientes por historial y gasto
+-- ============================================================================
+
 WITH customer_spending AS (
     SELECT
         c.customer_key,
@@ -41,6 +49,7 @@ WITH customer_spending AS (
     WHERE f.order_date IS NOT NULL
     GROUP BY c.customer_key
 )
+
 SELECT 
     customer_segment,
     COUNT(customer_key) AS total_customers
