@@ -75,14 +75,16 @@ Consolidates key product metrics and performance indicators.
 ---
 
 ## ✅ Technologies Used
-- SQL Server
-- SSMS (SQL Server Management Studio)
-- Power BI (optional for dashboarding)
+- phpMyAdmin – For database exploration and SQL execution
+- MySQL – As the relational database system
+- Markdown – To document and present the project
 - Excel (for tabular exports)
+
+
 
 ---
 
 ## ✍️ Author
 Donají Ramos Nuñez  
-[Add your contact/email if needed]
+donajiramosn@gmail.com
 
