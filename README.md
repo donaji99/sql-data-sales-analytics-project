@@ -13,7 +13,7 @@ This project explores and analyzes key customer and product behaviors using SQL 
 
 ### 🧭 Exploratory Data Analysis (EDA)
 1. **Database Exploration** – Overview of tables and structure.
-[text](scripts/1_database_exploration.sql)
+[Script](scripts/1_database_exploration.sql)
 2. **Dimensions Exploration** – Review of dimensions like customer, product, and date.
 3. **Date Exploration** – Understanding the range and granularity of dates.
 4. **Measures Exploration** – Review of core metrics such as sales, quantity, and orders.
