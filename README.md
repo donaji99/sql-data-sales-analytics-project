@@ -85,7 +85,8 @@ Consolidates key product metrics and performance indicators.
    - Average Order Revenue (AOR)  
    - Average Monthly Revenue  
 [Script](scripts/13_report_products.sql)  
-🖼️ *[Optional]*: Includes screenshots of aggregated product metrics and performance segments.
+  
+🖼️ ![Product Report](images/product_report.png)
 
 ---
 
