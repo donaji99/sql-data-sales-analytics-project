@@ -56,8 +56,9 @@ Consolidates key customer metrics and behaviors for business insight.
 4. Calculates valuable KPIs:
    - Recency (months since last order)  
    - Average Order Value (AOV)  
-   - Average Monthly Spend
-[Script](scripts/12_report_customers.sql)
+   - Average Monthly Spend  
+
+[Script](scripts/12_report_customers.sql)  
 🖼️ *[Optional]*: Includes screenshots of key result tables for reference.
 
 ---
@@ -83,7 +84,7 @@ Consolidates key product metrics and performance indicators.
    - Recency (months since last sale)  
    - Average Order Revenue (AOR)  
    - Average Monthly Revenue  
-[Script](scripts/13_report_products.sql)
+[Script](scripts/13_report_products.sql)  
 🖼️ *[Optional]*: Includes screenshots of aggregated product metrics and performance segments.
 
 ---
