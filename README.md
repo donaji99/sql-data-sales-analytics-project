@@ -28,8 +28,7 @@ This project explores and analyzes key customer and product behaviors using SQL 
 
 4. **Measures Exploration** – Review of core metrics such as sales, quantity, and orders.  
 [Script](scripts/4_measures_exploration.sql)
-![Quantity](images/4.quantity.png)  
-![Total sales](images/4.total_sales.png)  
+![Measures](images/4.Measures.png)  
 
 5. **Magnitude** – Evaluating the total size and impact of sales.  
 [Script](scripts/5_magnitude_analysis.sql)
