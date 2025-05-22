@@ -17,7 +17,9 @@ This project explores and analyzes key customer and product behaviors using SQL 
 
 
 2. **Dimensions Exploration** – Review of dimensions like customer, product, and date.  
-[Script](scripts/2_dimensions_exploration.sql)
+[Script](scripts/2_dimensions_exploration.sql)  
+![Dimensions](images/1..png)
+
 3. **Date Exploration** – Understanding the range and granularity of dates.  
 [Script](scripts/3_date_range_exploration.sql)
 4. **Measures Exploration** – Review of core metrics such as sales, quantity, and orders.  
