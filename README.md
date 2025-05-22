@@ -16,26 +16,26 @@ This project explores and analyzes key customer and product behaviors using SQL 
 [Script](scripts/1_database_exploration.sql)
 2. **Dimensions Exploration** – Review of dimensions like customer, product, and date.  
 [Script](scripts/2_dimensions_exploration.sql)
-3. **Date Exploration** – Understanding the range and granularity of dates.
+3. **Date Exploration** – Understanding the range and granularity of dates.  
 [Script](scripts/3_date_range_exploration.sql)
-4. **Measures Exploration** – Review of core metrics such as sales, quantity, and orders.
+4. **Measures Exploration** – Review of core metrics such as sales, quantity, and orders.  
 [Script](scripts/4_measures_exploration.sql)
-5. **Magnitude** – Evaluating the total size and impact of sales.
+5. **Magnitude** – Evaluating the total size and impact of sales.  
 [Script](scripts/5_magnitude_analysis.sql)
-6. **Ranking** – Identifying top customers and top products.
+6. **Ranking** – Identifying top customers and top products.  
 [Script](scripts/6_ranking_analysis.sql)
 ### 📈 Advanced Analytics
-7. **Change Over Time** – Analyze sales trends across months/years.
+7. **Change Over Time** – Analyze sales trends across months/years.  
 [Script](scripts/7_change_over_time_analysis.sql)
-8. **Cumulative Analysis** – Cumulative sales and orders per segment.
+8. **Cumulative Analysis** – Cumulative sales and orders per segment.  
 [Script](scripts/8_cumulative_analysis.sql)
-9. **Performance Analysis** – Identify high and low performers among customers and products.
+9. **Performance Analysis** – Identify high and low performers among customers and products.  
 [Script](scripts/9_performance_analysis.sql)
-10. **Part to Whole** – Understand customer/product contributions to overall performance.
+10. **Part to Whole** – Understand customer/product contributions to overall performance.  
 [Script](scripts/10_data_segmentation.sql)
-11. **Data Segmentation** – Grouping by revenue, frequency, recency, and more.
+11. **Data Segmentation** – Grouping by revenue, frequency, recency, and more.  
 [Script](scripts/11_part_to_whole_analysis.sql)
-12. **Reporting** – Consolidated views with metrics and KPIs.
+12. **Reporting** – Consolidated views with metrics and KPIs.  
 [Script](scripts/12_report_customers.sql)
 ---
 
