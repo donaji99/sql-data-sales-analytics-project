@@ -37,6 +37,7 @@ This project explores and analyzes key customer and product behaviors using SQL 
 ![category](images/5.3.png)    
 ![Revenue](images/5.Revenue.png)  
 ![Revenue by customer](<images/5.Revenue by customer.png>)  
+![Sales by country](<images/5.sales by country.png>)  
 
 
 
