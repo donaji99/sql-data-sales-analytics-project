@@ -62,12 +62,20 @@ This project explores and analyzes key customer and product behaviors using SQL 
    [Script](scripts/6_ranking_analysis.sql)  
    - Top 5 products by revenue  
      ![Top Products](images/6.2%20Revenue%20by%20product%20ranking.png)  
+     The Mountain-200 Black - 46 is the top-performing product in terms of revenue, generating 1,373,454, followed closely by other sizes of the same product line. This indicates that the Mountain-200 series is a key driver of sales.  
+
    - Worst performing sales  
      ![Lowest Revenue](images/6.3%20worst%20performing%20sales.png)  
+     Products like Racing Socks and Patch Kits show very low revenue (e.g., Racing Socks - L only made 2,430), highlighting items with low sales performance that may require review or promotion strategies.  
+
    - Top revenue by customers  
      ![Top Customers](images/6.4%20top%20revenue%20for%20customers.png)  
+     The top-spending customers, like Kaitlyn Henderson and Nichole Nara, each contributed over 13,294 in revenue.  
+
    - Customers with fewest orders  
      ![Fewest Orders](images/6.5%20fewest.png)  
+     Customers like Luke Collins, Gail Russell, and Richard Young only placed one order each. These low-engagement customers may represent an opportunity for re-engagement strategies or feedback collection.  
+     
    *Ranks the best and worst performers in terms of revenue and activity.*
 
 ---
