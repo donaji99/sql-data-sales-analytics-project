@@ -40,13 +40,13 @@ This project explores and analyzes key customer and product behaviors using SQL 
 ![Sales by country](<images/5.sales by country.png>)  
 6. **Ranking** – Identifying top customers and top products.  
 [Script](scripts/6_ranking_analysis.sql)
-- top_5_products_by_revenue
+- top_5_products_by_revenue  
 ![top_5_products_by_revenue](<images/6.2 Revenue by product ranking.png>)  
-- Worst performing sales
+- Worst performing sales  
 ![Worst_performing_sales](<images/6.3 worst performing sales.png>)  
-- Top revenue by customes
+- Top revenue by customes  
 ![Top revenue by customers](<images/6.4 top revenue for customers.png>) 
-- The 3 customers with the fewest orders placed 
+- The 3 customers with the fewest orders placed   
 ![The 3 customers with the fewest orders placed](<images/6.5 fewest.png>)  
 
 
