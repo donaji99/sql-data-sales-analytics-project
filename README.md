@@ -47,7 +47,7 @@ This project explores and analyzes key customer and product behaviors using SQL 
    ![Revenue by Category](images/5.3.png)  
    The Components category has the most products (127), highlighting a focus on individual parts rather than finished items like clothing or bikes.  
 
-   ![Total Revenue](images/5.Revenue.png) 
+   ![Total Revenue](images/5.Revenue.png)   
    Although components are more numerous, the Bikes category generates the most revenue, with over 28 million, suggesting that high-value items drive revenue.  
 
    ![Revenue by Customer](images/5.Revenue%20by%20customer.png)  
