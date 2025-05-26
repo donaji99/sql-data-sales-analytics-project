@@ -46,12 +46,14 @@ This project explores and analyzes key customer and product behaviors using SQL 
 
    ![Revenue by Category](images/5.3.png)  
    The Components category has the most products (127), highlighting a focus on individual parts rather than finished items like clothing or bikes.  
-   Although components are more numerous, the Bikes category generates the most revenue, with over 28 million, suggesting that high-value items drive revenue.  
 
    ![Total Revenue](images/5.Revenue.png) 
-   The top five customers generate almost the same revenue individually (~13,298), showing a similar purchasing behavior among the most valuable clients.  
+   Although components are more numerous, the Bikes category generates the most revenue, with over 28 million, suggesting that high-value items drive revenue.  
 
    ![Revenue by Customer](images/5.Revenue%20by%20customer.png)  
+   The top five customers generate almost the same revenue individually (~13,298), showing a similar purchasing behavior among the most valuable clients.  
+
+   
    ![Sales by Country](images/5.sales%20by%20country.png)  
     Once again, the United States leads with 20,481 sold items, confirming its dominance not only in customer count but also in sales volume.
    *Provides various breakdowns of total revenue by key dimensions.*
