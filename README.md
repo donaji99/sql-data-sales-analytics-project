@@ -39,6 +39,7 @@ This project explores and analyzes key customer and product behaviors using SQL 
 5. **Magnitude** – Evaluating the total size and impact of sales.  
    [Script](scripts/5_magnitude_analysis.sql)  
    ![Revenue by Country](images/5..png)  
+    The United States has the highest number of customers (7,482), making it the largest market, followed by Australia with 3,591. This suggests a strong sales presence in the U.S.  
    ![Revenue by Gender](images/5.gender.png)  
    ![Revenue by Category](images/5.3.png)  
    ![Total Revenue](images/5.Revenue.png)  
