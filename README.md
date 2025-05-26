@@ -75,7 +75,7 @@ This project explores and analyzes key customer and product behaviors using SQL 
    - Customers with fewest orders  
      ![Fewest Orders](images/6.5%20fewest.png)  
      Customers like Luke Collins, Gail Russell, and Richard Young only placed one order each. These low-engagement customers may represent an opportunity for re-engagement strategies or feedback collection.  
-     
+
    *Ranks the best and worst performers in terms of revenue and activity.*
 
 ---
@@ -85,31 +85,30 @@ This project explores and analyzes key customer and product behaviors using SQL 
 7. **Change Over Time** – Analyze sales trends across months/years.  
    [Script](scripts/7_change_over_time_analysis.sql)  
    ![Time Trends](images/7..png)  
-   *Shows changes in performance over time.*
+   Sales have been fluctuating significantly, with a notable drop in April 2012 compared to previous months. However, there is a general upward trend from 2011 to 2013, indicating recovery or seasonal variations.
 
 8. **Cumulative Analysis** – Cumulative sales and orders per segment.  
    [Script](scripts/8_cumulative_analysis.sql)  
    ![Cumulative Metrics](images/8..png)  
-   *Highlights the accumulation of KPIs over time.*
+   There is a consistent increase in cumulative sales over the years, with significant jumps in 2011 and 2013. This suggests strong growth momentum, particularly in those two years.
 
 9. **Performance Analysis** – Identify high and low performers among customers and products.  
    [Script](scripts/9_performance_analysis.sql)  
    ![Performance Overview](images/9.Performance%20Analysis.png)  
-   *Compares performance across customers and products.*
+   Several products, especially the "All-Purpose Bike Stand," consistently underperform, showing large negative differences from the average sales. This indicates a need to review their marketing, pricing, or relevance.
 
 10. **Part to Whole** – Understand customer/product contributions to overall performance.  
     [Script](scripts/10_data_segmentation.sql)  
     ![Segment Contribution 1](images/10.1.png)  
     ![Segment Contribution 2](images/10.2.png)  
-    *Visualizes how different segments contribute to global results.*
+    The majority of products are low-cost (under 100), which suggests a focus on accessible pricing. Most customers are new, indicating successful customer acquisition but possibly low retention.
 
 11. **Data Segmentation** – Grouping by revenue, frequency, recency, and more.  
     [Script](scripts/11_part_to_whole_analysis.sql)  
     ![Segmentation Overview](images/11.Part%20to%20whole%20Analysis.png)  
-    *Segments customers and products using behavioral metrics.*
+    Bike sales overwhelmingly dominate the total revenue (over 96%), showing a clear dependence on this category. Accessories and Clothing have minimal impact, suggesting potential areas for growth or reevaluation.
 
-12. **Reporting** – Consolidated views with metrics and KPIs.  
-    [Script](scripts/12_report_customers.sql)  
+12. **Reporting** – Consolidated views with metrics and KPIs.   
     *Combines previous results into final reports.*
 
 ---
