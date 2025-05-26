@@ -52,15 +52,26 @@ This project explores and analyzes key customer and product behaviors using SQL 
 
 ### 📈 Advanced Analytics
 7. **Change Over Time** – Analyze sales trends across months/years.  
-[Script](scripts/7_change_over_time_analysis.sql)
+[Script](scripts/7_change_over_time_analysis.sql)  
+![Change over time](images/7..png)
+
 8. **Cumulative Analysis** – Cumulative sales and orders per segment.  
-[Script](scripts/8_cumulative_analysis.sql)
+[Script](scripts/8_cumulative_analysis.sql)  
+![alt text](images/8..png)
+
 9. **Performance Analysis** – Identify high and low performers among customers and products.  
-[Script](scripts/9_performance_analysis.sql)
+[Script](scripts/9_performance_analysis.sql)  
+![  ](<images/9.Performance Analysis.png>)  
+
 10. **Part to Whole** – Understand customer/product contributions to overall performance.  
 [Script](scripts/10_data_segmentation.sql)
+![alt text](images/10.1.png)   
+![alt text](images/10.2.png)
+
 11. **Data Segmentation** – Grouping by revenue, frequency, recency, and more.  
-[Script](scripts/11_part_to_whole_analysis.sql)
+[Script](scripts/11_part_to_whole_analysis.sql)  
+![alt text](<images/11.Part to whole Analysis.png>)
+
 12. **Reporting** – Consolidated views with metrics and KPIs.  
 [Script](scripts/12_report_customers.sql)
 ---
@@ -85,8 +96,8 @@ Consolidates key customer metrics and behaviors for business insight.
    - Average Monthly Spend  
 
 [Script](scripts/12_report_customers.sql)  
-🖼️ *[Optional]*: Includes screenshots of key result tables for reference.
-
+🖼️ *[![Optional](<images/12.Customers Report.png>)]*: Includes screenshots of key result tables for reference.
+[Report](gold_report_customers.csv)
 ---
 
 ## 📦 Product Report
@@ -113,6 +124,7 @@ Consolidates key product metrics and performance indicators.
 [Script](scripts/13_report_products.sql)  
   
 🖼️ ![Product Report](images/product_report.png)
+[Report](gold_report_products.csv)
 
 ---
 
